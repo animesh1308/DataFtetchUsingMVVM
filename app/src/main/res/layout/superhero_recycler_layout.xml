@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/hero_image"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/black"
+        android:src="@drawable/ic_baseline_person_24"
+        />
+    <TextView
+        android:id="@+id/hero_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20dp"
+        android:hint="Super Hero name"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/hero_image"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/real_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20dp"
+        android:hint="real name"
+        android:background="@color/white"
+        android:layout_below="@id/hero_name"
+        android:layout_toRightOf="@+id/hero_image"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>
+</RelativeLayout>
