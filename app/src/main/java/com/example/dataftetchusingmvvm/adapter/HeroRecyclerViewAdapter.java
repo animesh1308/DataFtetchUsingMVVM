@@ -59,6 +59,7 @@ public class HeroRecyclerViewAdapter extends RecyclerView.Adapter<HeroRecyclerVi
             heroImage=itemView.findViewById(R.id.hero_image);
             heroNmae=itemView.findViewById(R.id.hero_name);
             heroRealName=itemView.findViewById(R.id.real_name);
+            //added
         }
     }
 }
