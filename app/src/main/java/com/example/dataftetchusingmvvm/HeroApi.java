@@ -13,4 +13,7 @@ public interface HeroApi {
 
     @GET("marvel")
     Call<List<SuperHeroModel>> getHeros();
+
+    @GET("marvel")
+    getHero();
 }
